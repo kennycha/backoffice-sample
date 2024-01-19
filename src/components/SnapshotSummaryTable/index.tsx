@@ -8,7 +8,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { DUMMY_SNAPSHOT_SUMMARY_DATA } from "./dummy";
+import { DUMMY_SNAPSHOT_SUMMARY_DATA } from "@/lib/constants";
 import { SnapshotSummaryDatum } from "@/types/snapshot";
 import { ReactNode } from "react";
 import styles from "./index.module.scss";

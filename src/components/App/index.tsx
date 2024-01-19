@@ -1,21 +1,18 @@
-import SnapshotSummaryTable from "../SnapshotSummaryTable";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "../ThemeProvider";
-import styles from "./index.module.scss";
-import classNames from "classnames/bind";
+import SnapshotSummaryPage from "@/pages/snapshot-summary";
 
-const cx = classNames.bind(styles);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <SnapshotSummaryPage />,
+  },
+]);
 
 const App = () => {
   return (
     <ThemeProvider defaultTheme="light">
-      <div className={cx("container")}>
-        <div className={cx("page-title-wrapper")}>
-          <h1 className={cx("page-title")}>스냅샷 이슈/메모 종합</h1>
-        </div>
-        <div className={cx("snapshot-summary-table-wrapper")}>
-          <SnapshotSummaryTable />
-        </div>
-      </div>
+      <RouterProvider router={router} />
     </ThemeProvider>
   );
 };

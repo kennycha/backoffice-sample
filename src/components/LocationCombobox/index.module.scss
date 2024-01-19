@@ -1,0 +1,28 @@
+.popover-button {
+  width: 300px;
+  justify-content: space-between;
+}
+
+.caret-sort-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
+.popover-content {
+  width: 300px;
+  padding: 0;
+}
+
+.check-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  opacity: 0;
+
+  &.checked {
+    opacity: 100;
+  }
+}
