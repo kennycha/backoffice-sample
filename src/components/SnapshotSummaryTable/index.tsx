@@ -12,10 +12,12 @@ import { DUMMY_SNAPSHOT_SUMMARY_DATA } from "@/lib/constants";
 import { SnapshotSummaryDatum } from "@/types/snapshot";
 import { ReactNode } from "react";
 import { ColumnKeyTypes } from "./types";
-import styles from "./index.module.scss";
-import classNames from "classnames/bind";
 import ImageCellInner from "./ImageCellInner";
 import TextCellInner from "./TextCellInner";
+import MemoCellInner from "./MemoCellInner";
+import IssuesCellInner from "./IssuesCellInner";
+import styles from "./index.module.scss";
+import classNames from "classnames/bind";
 
 const DUMMY_LOCATION_NAME = "메이아이 VS선릉";
 
@@ -68,8 +70,8 @@ const renderMap: {
   },
   date: (datum) => <TextCellInner text={datum.date} />,
   cameraOrientationId: (datum) => <TextCellInner text={datum.cameraOrientationId ?? ""} />,
-  issues: () => "issues",
-  memo: () => "memo",
+  issues: (datum) => <IssuesCellInner issues={datum.issues} />,
+  memo: (datum) => (datum.memo ? <MemoCellInner memo={datum.memo} /> : ""),
 };
 
 const cx = classNames.bind(styles);

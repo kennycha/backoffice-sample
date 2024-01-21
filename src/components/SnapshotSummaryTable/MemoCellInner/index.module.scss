@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  max-width: 8vw;
+  text-decoration: underline;
+
+  &.location {
+    text-decoration-color: #ff9843;
+  }
+
+  &.cameraOrientation {
+    text-decoration-color: #3652ad;
+  }
+}
