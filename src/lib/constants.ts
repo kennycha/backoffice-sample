@@ -3,9 +3,9 @@ import { SnapshotSummaryDatum } from "@/types/snapshot";
 export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   {
     date: "2023-12-03",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-02T09:00:11",
       imageUrl:
@@ -14,7 +14,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-03T09:00:10",
       imageUrl:
@@ -26,9 +26,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-03",
-    cameraOrientationId: "6",
+    cameraOrientationId: "106",
     prevSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-02T09:00:08",
       imageUrl:
@@ -37,7 +37,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/6/f42ad8284b61fb90a9432eeb85364219?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2df995072fae82acccf1d9ab81df0771250d79df96e6b24797fa20b4b8e20e9",
     },
     currentSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-03T09:00:10",
       imageUrl:
@@ -49,9 +49,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-06",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-05T09:00:08",
       imageUrl:
@@ -60,7 +60,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-06T09:00:10",
       imageUrl:
@@ -76,9 +76,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-08",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-07T09:00:07",
       imageUrl:
@@ -87,7 +87,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-08T09:00:09",
       imageUrl:
@@ -99,9 +99,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-08",
-    cameraOrientationId: "2",
+    cameraOrientationId: "102",
     prevSnapshot: {
-      cameraOrientationId: "2",
+      cameraOrientationId: "102",
       cameraOrientationUid: "e31ca892-fde7-4273-85b9-95788f4c8614",
       timestamp: "2023-12-07T09:00:10",
       imageUrl:
@@ -110,7 +110,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/2/3d4da1c65d23ebcea932eb2635218f3a?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7b43b6a416bdd0630bdedf876f6c8b30f20e0c1fd1d92ed39972c77bba13d998",
     },
     currentSnapshot: {
-      cameraOrientationId: "2",
+      cameraOrientationId: "102",
       cameraOrientationUid: "e31ca892-fde7-4273-85b9-95788f4c8614",
       timestamp: "2023-12-08T09:00:10",
       imageUrl:
@@ -122,9 +122,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-10",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-09T09:00:10",
       imageUrl:
@@ -133,7 +133,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-10T09:00:10",
       imageUrl:
@@ -145,9 +145,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-10",
-    cameraOrientationId: "2",
+    cameraOrientationId: "102",
     prevSnapshot: {
-      cameraOrientationId: "2",
+      cameraOrientationId: "102",
       cameraOrientationUid: "e31ca892-fde7-4273-85b9-95788f4c8614",
       timestamp: "2023-12-09T09:00:11",
       imageUrl:
@@ -156,7 +156,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/2/3d4da1c65d23ebcea932eb2635218f3a?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7b43b6a416bdd0630bdedf876f6c8b30f20e0c1fd1d92ed39972c77bba13d998",
     },
     currentSnapshot: {
-      cameraOrientationId: "2",
+      cameraOrientationId: "102",
       cameraOrientationUid: "e31ca892-fde7-4273-85b9-95788f4c8614",
       timestamp: "2023-12-10T09:00:11",
       imageUrl:
@@ -168,9 +168,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-12",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-11T09:00:09",
       imageUrl:
@@ -179,7 +179,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-12T09:00:10",
       imageUrl:
@@ -191,9 +191,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-12",
-    cameraOrientationId: "4",
+    cameraOrientationId: "104",
     prevSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-11T09:00:10",
       imageUrl:
@@ -202,7 +202,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/4/9f0c05400c152d8cecc308669657071d?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4bca1fec90128f9db98ac9976cc9d6dd48af1ef271908f339225befd7e4ac278",
     },
     currentSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-12T09:00:10",
       imageUrl:
@@ -214,9 +214,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-12",
-    cameraOrientationId: "6",
+    cameraOrientationId: "106",
     prevSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-11T09:00:08",
       imageUrl:
@@ -225,7 +225,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/6/f42ad8284b61fb90a9432eeb85364219?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2df995072fae82acccf1d9ab81df0771250d79df96e6b24797fa20b4b8e20e9",
     },
     currentSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-12T09:00:11",
       imageUrl:
@@ -237,9 +237,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-12",
-    cameraOrientationId: "7",
+    cameraOrientationId: "107",
     prevSnapshot: {
-      cameraOrientationId: "7",
+      cameraOrientationId: "107",
       cameraOrientationUid: "4387b297-339b-421c-98eb-96b112634404",
       timestamp: "2023-12-11T09:00:11",
       imageUrl:
@@ -248,7 +248,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/7/e78ad348a6b15fb3a33701017edabade?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033601Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ff9690dd39894dbb34f406810a1319b0fd9e9f536c7b055db3c69e153631b681",
     },
     currentSnapshot: {
-      cameraOrientationId: "7",
+      cameraOrientationId: "107",
       cameraOrientationUid: "4387b297-339b-421c-98eb-96b112634404",
       timestamp: "2023-12-12T09:00:10",
       imageUrl:
@@ -260,9 +260,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-12",
-    cameraOrientationId: "8",
+    cameraOrientationId: "108",
     prevSnapshot: {
-      cameraOrientationId: "8",
+      cameraOrientationId: "108",
       cameraOrientationUid: "75b74c8a-34b0-4d4f-8134-9f6fae54f1b1",
       timestamp: "2023-12-11T09:00:11",
       imageUrl:
@@ -271,7 +271,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/8/ec982b2ae6cc14433fefafe5f6a59a44?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033601Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9bb0e8fa1fa3b6a3ef12e1bd58d6878f7ba2f5ca93d4c03971d3a7933295314a",
     },
     currentSnapshot: {
-      cameraOrientationId: "8",
+      cameraOrientationId: "108",
       cameraOrientationUid: "75b74c8a-34b0-4d4f-8134-9f6fae54f1b1",
       timestamp: "2023-12-12T09:00:12",
       imageUrl:
@@ -283,9 +283,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2024-01-01",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-31T09:00:09",
       imageUrl:
@@ -294,7 +294,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2024-01-01T09:00:09",
       imageUrl:
@@ -306,9 +306,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2024-01-01",
-    cameraOrientationId: "6",
+    cameraOrientationId: "106",
     prevSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-31T09:00:10",
       imageUrl:
@@ -317,7 +317,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/6/f42ad8284b61fb90a9432eeb85364219?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2df995072fae82acccf1d9ab81df0771250d79df96e6b24797fa20b4b8e20e9",
     },
     currentSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2024-01-01T09:00:11",
       imageUrl:
@@ -329,9 +329,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-20",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-19T09:00:08",
       imageUrl:
@@ -340,7 +340,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-20T09:00:08",
       imageUrl:
@@ -356,9 +356,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-04",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-03T09:00:10",
       imageUrl:
@@ -367,7 +367,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-04T09:00:11",
       imageUrl:
@@ -383,9 +383,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-25",
-    cameraOrientationId: "1",
+    cameraOrientationId: "101",
     prevSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-24T09:00:11",
       imageUrl:
@@ -394,7 +394,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/1/b8c17d8a5c1a069c52098ac14854e8c3?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033559Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ba192b3a95dd899057f2812d1d85acc76ab42d5805135bd1de8010d75e9bffd7",
     },
     currentSnapshot: {
-      cameraOrientationId: "1",
+      cameraOrientationId: "101",
       cameraOrientationUid: "7b237be3-b8c3-43d6-9f36-c1a2c0b9dd2c",
       timestamp: "2023-12-25T09:00:09",
       imageUrl:
@@ -410,9 +410,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-07",
-    cameraOrientationId: "3",
+    cameraOrientationId: "103",
     prevSnapshot: {
-      cameraOrientationId: "3",
+      cameraOrientationId: "103",
       cameraOrientationUid: "1fa6219c-941e-4468-9510-921547d45f7c",
       timestamp: "2023-12-06T09:00:09",
       imageUrl:
@@ -422,7 +422,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/3/9a095f518522e9de718e19c640571a7a?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=13a780f37164027e34c4517d984c4a70bb1cbc30d7914c4d7022642a2a8626aa",
     },
     currentSnapshot: {
-      cameraOrientationId: "3",
+      cameraOrientationId: "103",
       cameraOrientationUid: "1fa6219c-941e-4468-9510-921547d45f7c",
       timestamp: "2023-12-07T09:00:09",
       imageUrl:
@@ -435,9 +435,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-07",
-    cameraOrientationId: "4",
+    cameraOrientationId: "104",
     prevSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-06T09:00:10",
       imageUrl:
@@ -446,7 +446,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/4/9f0c05400c152d8cecc308669657071d?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4bca1fec90128f9db98ac9976cc9d6dd48af1ef271908f339225befd7e4ac278",
     },
     currentSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-07T09:00:08",
       imageUrl:
@@ -458,9 +458,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-07",
-    cameraOrientationId: "5",
+    cameraOrientationId: "105",
     prevSnapshot: {
-      cameraOrientationId: "5",
+      cameraOrientationId: "105",
       cameraOrientationUid: "9acc566c-4cbc-4f0f-8090-c6a392f5d7ce",
       timestamp: "2023-12-06T09:00:10",
       imageUrl:
@@ -469,7 +469,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/5/1c607573ddf0c4d0547033c938295c56?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b74bddf49a202e9b88bf4232e3774f6712246cbc5fd15afdf544e42723f7c3dc",
     },
     currentSnapshot: {
-      cameraOrientationId: "5",
+      cameraOrientationId: "105",
       cameraOrientationUid: "9acc566c-4cbc-4f0f-8090-c6a392f5d7ce",
       timestamp: "2023-12-07T09:00:11",
       imageUrl:
@@ -481,9 +481,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-05",
-    cameraOrientationId: "4",
+    cameraOrientationId: "104",
     prevSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-04T09:00:10",
       imageUrl:
@@ -492,7 +492,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/4/9f0c05400c152d8cecc308669657071d?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4bca1fec90128f9db98ac9976cc9d6dd48af1ef271908f339225befd7e4ac278",
     },
     currentSnapshot: {
-      cameraOrientationId: "4",
+      cameraOrientationId: "104",
       cameraOrientationUid: "e6fdc443-46ff-4890-968b-d51cac9b3cf5",
       timestamp: "2023-12-05T09:00:10",
       imageUrl:
@@ -504,9 +504,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-05",
-    cameraOrientationId: "5",
+    cameraOrientationId: "105",
     prevSnapshot: {
-      cameraOrientationId: "5",
+      cameraOrientationId: "105",
       cameraOrientationUid: "9acc566c-4cbc-4f0f-8090-c6a392f5d7ce",
       timestamp: "2023-12-04T09:00:10",
       imageUrl:
@@ -515,7 +515,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/5/1c607573ddf0c4d0547033c938295c56?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b74bddf49a202e9b88bf4232e3774f6712246cbc5fd15afdf544e42723f7c3dc",
     },
     currentSnapshot: {
-      cameraOrientationId: "5",
+      cameraOrientationId: "105",
       cameraOrientationUid: "9acc566c-4cbc-4f0f-8090-c6a392f5d7ce",
       timestamp: "2023-12-05T09:00:10",
       imageUrl:
@@ -527,9 +527,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-05",
-    cameraOrientationId: "6",
+    cameraOrientationId: "106",
     prevSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-04T09:00:11",
       imageUrl:
@@ -538,7 +538,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/6/f42ad8284b61fb90a9432eeb85364219?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033600Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b2df995072fae82acccf1d9ab81df0771250d79df96e6b24797fa20b4b8e20e9",
     },
     currentSnapshot: {
-      cameraOrientationId: "6",
+      cameraOrientationId: "106",
       cameraOrientationUid: "e3cdbad9-833c-43d1-a119-b1d5df64b1f9",
       timestamp: "2023-12-05T09:00:10",
       imageUrl:
@@ -550,9 +550,9 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
   },
   {
     date: "2023-12-05",
-    cameraOrientationId: "7",
+    cameraOrientationId: "107",
     prevSnapshot: {
-      cameraOrientationId: "7",
+      cameraOrientationId: "107",
       cameraOrientationUid: "4387b297-339b-421c-98eb-96b112634404",
       timestamp: "2023-12-04T09:00:10",
       imageUrl:
@@ -561,7 +561,7 @@ export const DUMMY_SNAPSHOT_SUMMARY_DATA: SnapshotSummaryDatum[] = [
         "https://s3.ap-northeast-2.amazonaws.com/camera-orientation-snapshot/config-snapshots/mayi_seolleung-vs/7/e78ad348a6b15fb3a33701017edabade?response-content-type=image%2Fjpeg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYIGZH4JP7THC5WC7%2F20240121%2Fap-northeast-2%2Fs3%2Faws4_request&X-Amz-Date=20240121T033601Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ff9690dd39894dbb34f406810a1319b0fd9e9f536c7b055db3c69e153631b681",
     },
     currentSnapshot: {
-      cameraOrientationId: "7",
+      cameraOrientationId: "107",
       cameraOrientationUid: "4387b297-339b-421c-98eb-96b112634404",
       timestamp: "2023-12-05T09:00:11",
       imageUrl:

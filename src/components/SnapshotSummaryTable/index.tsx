@@ -11,17 +11,13 @@ import {
 import { DUMMY_SNAPSHOT_SUMMARY_DATA } from "@/lib/constants";
 import { SnapshotSummaryDatum } from "@/types/snapshot";
 import { ReactNode } from "react";
+import { ColumnKeyTypes } from "./types";
 import styles from "./index.module.scss";
 import classNames from "classnames/bind";
+import ImageCellInner from "./ImageCellInner";
+import TextCellInner from "./TextCellInner";
 
-type ColumnKeyTypes =
-  | "location"
-  | "prevSnapshot"
-  | "currentSnapshot"
-  | "date"
-  | "cameraOrientationId"
-  | "issues"
-  | "memo";
+const DUMMY_LOCATION_NAME = "메이아이 VS선릉";
 
 const COLUMNS: { key: ColumnKeyTypes; label: string }[] = [
   {
@@ -57,11 +53,21 @@ const COLUMNS: { key: ColumnKeyTypes; label: string }[] = [
 const renderMap: {
   [key in ColumnKeyTypes]: (datum: SnapshotSummaryDatum) => ReactNode;
 } = {
-  location: () => "location",
-  prevSnapshot: () => "prevSnapshot",
-  currentSnapshot: () => "currentSnapshot",
-  date: () => "date",
-  cameraOrientationId: () => "cameraOrientationId",
+  location: () => <TextCellInner text={DUMMY_LOCATION_NAME} />,
+  prevSnapshot: (datum) => {
+    if (!datum.prevSnapshot) return "";
+
+    const { imageUrl, configImageUrl } = datum.prevSnapshot;
+    return imageUrl && configImageUrl ? <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} /> : "";
+  },
+  currentSnapshot: (datum) => {
+    if (!datum.currentSnapshot) return "";
+
+    const { imageUrl, configImageUrl } = datum.currentSnapshot;
+    return imageUrl && configImageUrl ? <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} /> : "";
+  },
+  date: (datum) => <TextCellInner text={datum.date} />,
+  cameraOrientationId: (datum) => <TextCellInner text={datum.cameraOrientationId ?? ""} />,
   issues: () => "issues",
   memo: () => "memo",
 };
@@ -73,9 +79,7 @@ const SnapshotSummaryTable = () => {
 
   return (
     <Table className={cx("container")}>
-      <TableCaption className={cx("caption")}>
-        스냅샷 이슈/메모 종합 테이블
-      </TableCaption>
+      <TableCaption className={cx("caption")}>{DUMMY_LOCATION_NAME}</TableCaption>
       <TableHeader>
         <TableRow>
           {COLUMNS.map((column) => (
@@ -87,9 +91,7 @@ const SnapshotSummaryTable = () => {
         {snapshotSummaryData.map((snapshotSummaryDatum, idx) => (
           <TableRow key={idx}>
             {COLUMNS.map((column) => (
-              <TableCell key={column.key}>
-                {renderMap[column.key](snapshotSummaryDatum)}
-              </TableCell>
+              <TableCell key={column.key}>{renderMap[column.key](snapshotSummaryDatum)}</TableCell>
             ))}
           </TableRow>
         ))}
