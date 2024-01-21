@@ -2,9 +2,11 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "../ThemeProvider";
 import SnapshotSummaryPage from "@/pages/snapshot-summary";
 
+const BASE_PATH = "/backoffice-sample";
+
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: BASE_PATH,
     element: <SnapshotSummaryPage />,
   },
 ]);
