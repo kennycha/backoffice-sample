@@ -9,8 +9,61 @@
   column-gap: 16px;
 }
 
-// .date-range-picker-wrapper {
-// }
+.filter-sections {
+  display: flex;
+  column-gap: 64px;
+  position: relative;
+}
+
+.filter-section {
+  display: flex;
+  height: 100%;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.separator {
+  height: 20px !important;
+}
+
+.filter-group {
+  display: flex;
+  column-gap: 8px;
+}
+
+.filter-group-item {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.extract-button-wrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.snapshot-filter {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.snapshot-filter-label {
+  font-size: 16px !important;
+}
+
+.sort-order-radio-group {
+  display: flex !important;
+  align-items: center;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
 
 // .snapshot-summary-table-wrapper {
 // }

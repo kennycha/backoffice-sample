@@ -1,9 +1,22 @@
 .container {
+  height: 800px;
+  position: relative;
+  overflow: auto;
+}
+
+.table {
   background-color: white;
 }
 
 .caption {
   color: #272829 !important;
+}
+
+.table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
 }
 
 .total-count-label {

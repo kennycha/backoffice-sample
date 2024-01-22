@@ -60,16 +60,26 @@ const renderMap: {
     if (!datum.prevSnapshot) return "";
 
     const { imageUrl, configImageUrl } = datum.prevSnapshot;
-    return imageUrl && configImageUrl ? <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} /> : "";
+    return imageUrl && configImageUrl ? (
+      <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} />
+    ) : (
+      ""
+    );
   },
   currentSnapshot: (datum) => {
     if (!datum.currentSnapshot) return "";
 
     const { imageUrl, configImageUrl } = datum.currentSnapshot;
-    return imageUrl && configImageUrl ? <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} /> : "";
+    return imageUrl && configImageUrl ? (
+      <ImageCellInner imageUrl={imageUrl} configImageUrl={configImageUrl} />
+    ) : (
+      ""
+    );
   },
   date: (datum) => <TextCellInner text={datum.date} />,
-  cameraOrientationId: (datum) => <TextCellInner text={datum.cameraOrientationId ?? ""} />,
+  cameraOrientationId: (datum) => (
+    <TextCellInner text={datum.cameraOrientationId ?? ""} />
+  ),
   issues: (datum) => <IssuesCellInner issues={datum.issues} />,
   memo: (datum) => (datum.memo ? <MemoCellInner memo={datum.memo} /> : ""),
 };
@@ -80,35 +90,41 @@ const SnapshotSummaryTable = () => {
   const snapshotSummaryData = DUMMY_SNAPSHOT_SUMMARY_DATA;
 
   return (
-    <Table className={cx("container")}>
-      <TableCaption className={cx("caption")}>{DUMMY_LOCATION_NAME}</TableCaption>
-      <TableHeader>
-        <TableRow>
-          {COLUMNS.map((column) => (
-            <TableHead key={column.key}>{column.label}</TableHead>
-          ))}
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {snapshotSummaryData.map((snapshotSummaryDatum, idx) => (
-          <TableRow key={idx}>
+    <div className={cx("container")}>
+      <Table className={cx("table")}>
+        <TableCaption className={cx("caption")}>
+          {DUMMY_LOCATION_NAME}
+        </TableCaption>
+        <TableHeader className={cx("table-header")}>
+          <TableRow>
             {COLUMNS.map((column) => (
-              <TableCell key={column.key}>{renderMap[column.key](snapshotSummaryDatum)}</TableCell>
+              <TableHead key={column.key}>{column.label}</TableHead>
             ))}
           </TableRow>
-        ))}
-      </TableBody>
-      <TableFooter>
-        <TableRow>
-          <TableCell className={cx("total-count-label")} colSpan={2}>
-            데이터 총 개수
-          </TableCell>
-          <TableCell className={cx("total-count")} colSpan={6}>
-            {snapshotSummaryData.length}
-          </TableCell>
-        </TableRow>
-      </TableFooter>
-    </Table>
+        </TableHeader>
+        <TableBody>
+          {snapshotSummaryData.map((snapshotSummaryDatum, idx) => (
+            <TableRow key={idx}>
+              {COLUMNS.map((column) => (
+                <TableCell key={column.key}>
+                  {renderMap[column.key](snapshotSummaryDatum)}
+                </TableCell>
+              ))}
+            </TableRow>
+          ))}
+        </TableBody>
+        <TableFooter>
+          <TableRow>
+            <TableCell className={cx("total-count-label")} colSpan={2}>
+              데이터 총 개수
+            </TableCell>
+            <TableCell className={cx("total-count")} colSpan={6}>
+              {snapshotSummaryData.length}
+            </TableCell>
+          </TableRow>
+        </TableFooter>
+      </Table>
+    </div>
   );
 };
 
