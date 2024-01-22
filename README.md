@@ -5,4 +5,4 @@
 - 참고
 
   - [shadcn/ui](https://ui.shadcn.com/)
-  - [Chakra UI](https://chakra-ui.com/)
+  - [~~Chakra UI~~](https://chakra-ui.com/)
