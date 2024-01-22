@@ -11,6 +11,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import Paragraph from "@/components/Paragraph";
 import { Separator } from "@/components/ui/separator";
 import { Switch } from "@/components/ui/switch";
+import { Button } from "@/components/ui/button";
 
 const cx = classNames.bind(styles);
 
@@ -52,6 +53,9 @@ const SnapshotSummaryPage = () => {
               </div>
             ))}
           </div>
+        </div>
+        <div className={cx("extract-button-wrapper")}>
+          <Button>CSV로 추출</Button>
         </div>
       </div>
       <div className={cx("filter-sections")}>

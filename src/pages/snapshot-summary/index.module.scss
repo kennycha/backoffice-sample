@@ -12,6 +12,7 @@
 .filter-sections {
   display: flex;
   column-gap: 64px;
+  position: relative;
 }
 
 .filter-section {
@@ -34,6 +35,13 @@
   display: flex;
   align-items: center;
   column-gap: 4px;
+}
+
+.extract-button-wrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .snapshot-filter {
