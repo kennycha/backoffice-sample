@@ -29,19 +29,19 @@ const componentsMap = {
   setting: [
     {
       title: "Counting Line",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "A modal dialog that interrupts the user with important content and expects a response.",
     },
     {
       title: "Interval Zone",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "For sighted users to preview content available behind a link.",
     },
     {
       title: "FP Filtering",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
     },
@@ -49,19 +49,19 @@ const componentsMap = {
   analyze: [
     {
       title: "BBOX 분석",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "A modal dialog that interrupts the user with important content and expects a response.",
     },
     {
       title: "Tracklet 분석",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "For sighted users to preview content available behind a link.",
     },
     {
       title: "Live 분석",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
     },
@@ -69,19 +69,19 @@ const componentsMap = {
   operation: [
     {
       title: "스냅샷 비교/검증",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "A modal dialog that interrupts the user with important content and expects a response.",
     },
     {
       title: "스냅샷 검증 현황",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "For sighted users to preview content available behind a link.",
     },
     {
       title: "스냅샷 메모/이슈 종합",
-      href: "/",
+      href: "/backoffice-sample/",
       description:
         "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
     },
