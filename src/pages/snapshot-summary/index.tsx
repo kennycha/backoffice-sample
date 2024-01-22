@@ -34,8 +34,8 @@ const SnapshotSummaryPage = () => {
             {["전체", "공간변화", "화각변화", "비교불가", "이슈 없음"].map(
               (issueType) => (
                 <div className={cx("filter-group-item")}>
-                  <Checkbox defaultChecked={true} />
-                  <Label>{issueType}</Label>
+                  <Checkbox defaultChecked={true} id={issueType} />
+                  <Label htmlFor={issueType}>{issueType}</Label>
                 </div>
               )
             )}
@@ -47,8 +47,8 @@ const SnapshotSummaryPage = () => {
           <div className={cx("filter-group")}>
             {["전체", "location", "c/o"].map((memoType) => (
               <div className={cx("filter-group-item")}>
-                <Checkbox defaultChecked={true} />
-                <Label>{memoType}</Label>
+                <Checkbox defaultChecked={true} id={memoType} />
+                <Label htmlFor={memoType}>{memoType}</Label>
               </div>
             ))}
           </div>
